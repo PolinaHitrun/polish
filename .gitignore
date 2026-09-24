@@ -1,0 +1,4 @@
+.DS_Store
+*.npy
+dictionary_data/
+*.pdf
