@@ -88,5 +88,5 @@ def train_memory_safe(corpus_path, output_dict_path, vector_size=8, chunk_size=1
     print("Готово!")
 
 if __name__ == "__main__":
-    train_simple('polish_corpus.txt', 'polish_lit_dictionary.txt', vector_size=100)
+    train_simple('polish_corpus.txt', 'polish_cbow_dictionary.txt', vector_size=100)
     # train_memory_safe('polish_corpus.txt', 'polish_lit_dictionary.txt', vector_size=100)

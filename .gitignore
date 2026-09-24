@@ -1,4 +1,7 @@
 .DS_Store
 *.npy
-dictionary_data/
 *.pdf
+*.txt
+dictionary_data/
+preprocessed/
+raw_txt/

@@ -45,7 +45,7 @@ def create_dictionary(words_list, vv, output_file):
 
 if __name__ == "__main__":
     corpus_file = 'polish_corpus.txt'
-    output_dir = 'dictionary_data'
+    output_dir = 'svd_data'
     dict_file = os.path.join(output_dir, 'polish_dictionary.npy')
     
     os.makedirs(output_dir, exist_ok=True)
